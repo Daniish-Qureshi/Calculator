@@ -17,6 +17,10 @@ const calculate = (btnValue) => {
         output = "";
     } else if (btnValue === "close") {
         output = output.toString().slice(0, -1);
+    } else if (btnValue === "+/-") {
+        output = output.startsWith("-") ? output.slice(1) : `-${output}`;
+    } else if (btnValue === "%") {
+        output = output ? `${output}/100` : output;
     } else {
         if (output === "" && specialChars.includes(btnValue)) return;
         output += btnValue;

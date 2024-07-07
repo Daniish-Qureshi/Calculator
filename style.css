@@ -7,32 +7,34 @@
 
 body {
     height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #e0e3eb;
+    background: #ddd9e3;
 }
 
 .container {
     position: relative;
-    max-width: 300px;
+    max-width: 340px;
     width: 100%;
-    border-radius: 12px;
+    border-radius: 15px;
     padding: 10px 20px 20px;
-    background: #fff;
+    background: #3e3750;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 
 .display {
-    height: 80px;
     width: 100%;
-    outline: none;
-    border: none;
-    text-align: right;
+    height: 60px;
     margin-bottom: 10px;
-    font-size: 25px;
-    color: #333;
-    pointer-events: none;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    color: #fff;
+    background: #4e4357;
+    border: none;
+    border-radius: 10px;
 }
 
 .buttons {
@@ -42,12 +44,19 @@ body {
 }
 
 .buttons button {
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-    font-size: 20px;
     cursor: pointer;
-    background-color: #eee;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 6px;
+    padding: 0px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    background-color: #ccc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11);
+    transition: ease-in-out 0.15s;
 }
 
 .buttons button:active {
@@ -55,42 +64,39 @@ body {
 }
 
 .operator {
-    color: green;
+    color: #fff;
+    background: #566eaf;
 }
 
 .history-container {
     position: absolute;
     top: 10px;
-    right: 10px;
-    background: #fff;
+    right: 20px;
+    background: #3e3750;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 280px;
-    max-height:80px;  
-    overflow-y: auto;  
-    z-index: 1000;  
+    border-radius: 10px;
+    width: 300px;
+    max-height: 60px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .history-container h3 {
     margin-bottom: 10px;
     text-align: center;
+    color: #ccc;
 }
 
 .history-container ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
 }
 
 .history-container li {
     margin-bottom: 5px;
-    word-wrap: break-word;  
-}
-
-.buttons {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    z-index: 1;  
+    word-wrap: break-word;
 }
