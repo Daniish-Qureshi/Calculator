@@ -1,4 +1,4 @@
-# Project Name: Credit Card Design
+# Project Name: Calculator
 
 # Introduction
 
@@ -21,7 +21,7 @@ The Calculator project is a simple yet functional web-based calculator. It allow
 
 ## Demo Screenshots
 
-![Demo Screenshot](https://github.com/Daniish-Qureshi/Credit-Card-Design/blob/main/DESKTOP%20(1).png)
+![Demo Screenshot](https://github.com/Daniish-Qureshi/Calculator/blob/main/Demo.png)
 
 ## Live Demo
 
