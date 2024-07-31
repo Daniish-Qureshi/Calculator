@@ -1,4 +1,14 @@
-# Project Name: Calculator
+# Calculator
+
+## Demo Screenshots
+
+![Demo Screenshot](https://github.com/Daniish-Qureshi/Calculator/blob/main/Demo.png)
+
+## Live Demo
+
+Click the button below to see the project in action:
+
+[![Demo](https://img.shields.io/badge/LIVE-DEMO-black)](https://daniish-qureshi.github.io/Calculator/)
 
 # Introduction
 
@@ -18,16 +28,6 @@ The Calculator project is a simple yet functional web-based calculator. It allow
 - *HTML5*: For structuring the content.
 - *CSS3*: For styling and layout.
 - *JavaScript*: For adding functionality and handling calculations.
-
-## Demo Screenshots
-
-![Demo Screenshot](https://github.com/Daniish-Qureshi/Calculator/blob/main/Demo.png)
-
-## Live Demo
-
-Click the button below to see the project in action:
-
-[![Demo](https://img.shields.io/badge/LIVE-DEMO-black)](https://daniish-qureshi.github.io/Calculator/)
 
 ## Contact
 
